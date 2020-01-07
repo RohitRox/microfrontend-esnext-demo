@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2015", "es2016"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "declaration": false
+  },
+  "include": [
+    "index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist"
+  ]
+}
+
