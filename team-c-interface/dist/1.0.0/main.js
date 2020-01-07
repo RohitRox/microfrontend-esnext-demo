@@ -265,7 +265,7 @@ var TeamCComponentMain = Object(external_MFE_GLB_React_["lazy"])(function () { r
 }); });
 var TeamCComponentMainLazy = function () {
     return external_MFE_GLB_React_["createElement"]("div", { className: "central-comp" },
-        external_MFE_GLB_React_["createElement"](external_MFE_GLB_React_["Suspense"], { fallback: external_MFE_GLB_React_["createElement"]("p", null, "Loading Team C Component Main lazily...") },
+        external_MFE_GLB_React_["createElement"](external_MFE_GLB_React_["Suspense"], { fallback: external_MFE_GLB_React_["createElement"]("span", { className: "badge badge-light" }, "Loading Team C Component Main lazily...") },
             external_MFE_GLB_React_["createElement"](TeamCComponentMain, null)));
 };
 /* harmony default export */ var lazy = (TeamCComponentMainLazy);

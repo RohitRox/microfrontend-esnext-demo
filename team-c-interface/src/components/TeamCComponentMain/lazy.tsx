@@ -8,7 +8,7 @@ const TeamCComponentMain = lazy(async () => {
 
 const TeamCComponentMainLazy: React.FC = () => {
   return <div className="central-comp">
-    <Suspense fallback={<p>Loading Team C Component Main lazily...</p>}>
+    <Suspense fallback={<span className="badge badge-light">Loading Team C Component Main lazily...</span>}>
       <TeamCComponentMain />
     </Suspense>
   </div>

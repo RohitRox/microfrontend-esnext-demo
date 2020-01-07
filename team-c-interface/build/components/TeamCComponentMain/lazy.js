@@ -48,7 +48,7 @@ var TeamCComponentMain = lazy(function () { return __awaiter(void 0, void 0, voi
 }); });
 var TeamCComponentMainLazy = function () {
     return React.createElement("div", { className: "central-comp" },
-        React.createElement(Suspense, { fallback: React.createElement("p", null, "Loading Team C Component Main lazily...") },
+        React.createElement(Suspense, { fallback: React.createElement("span", { className: "badge badge-light" }, "Loading Team C Component Main lazily...") },
             React.createElement(TeamCComponentMain, null)));
 };
 export default TeamCComponentMainLazy;
